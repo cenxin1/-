@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        body {
+            background-image: url("./1.png");
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" width="800" height="500" align="center" background-color="#FF6699">
+        <tr>
+            <td bgcolor="#F3F3FA">
+                <h2 align="center"><img src="./2.png" alt="" height="40" widt="50">&nbsp;&nbsp;&nbsp;&nbsp;解除抖音封号限制</h2><br>
+                <form action="" align="center">
+                    用户名称：<input type="text" placeholder="请输入用户名！" style="width: 400px;height: 30px;"><br><br> 登录密码：
+                    <input type="password" placeholder="请输入登录密码！" style="width: 400px;height: 30px;"><br><br> 重复密码：
+                    <input type="password" placeholder="请输入您的确认密码！" style="width: 400px;height: 30px;"><br><br> 身份证号：
+                    <input type="text" placeholder="请输入您的身份证" style="width: 400px;height: 30px;">
+                    
+                    <br><br> 封号类型：
+                    <select name="fruit" style="height: 30px;width: 400px;" align="left">
+                        <option value="1">无故被删除视频</option>
+                        <option value="2" selected="selected">人为举报账号</option>
+                        <option value="3">账号被盗</option>
+                       
+                    </select>
+		<p>
+                    <input type="button" value="提交" / style="width: 100px;height: 25px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="重置" / style="width: 100px;height: 25px;">
+		</p>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
